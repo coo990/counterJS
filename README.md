@@ -10,5 +10,12 @@ cd counterJS
 open index.html
 ```
 
+## How to test
+```
+git clone https://github.com/coo990/counterJS.git
+cd counterJS
+open SpecRunner.html
+```
+
 ## Screenshot
 ![Imgur](https://i.imgur.com/wcN49C9.png)
