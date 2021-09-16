@@ -6,9 +6,10 @@ describe('Counter', () => {
   beforeEach(() => {
     counter = new Counter();
   })
-  
-  it('goes up by 1', () => {
-    expect(counter.increment()).toEqual(1)
-  });
 
+  it('goes up by 1', () => {
+    counter.increment();
+    expect(counter.getCount()).toEqual(1)
+  });
+  
 });

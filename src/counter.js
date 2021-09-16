@@ -4,6 +4,11 @@ class Counter {
   constructor() {
     this.count = 0;
   }
+
+  getCount() {
+    return this.count;
+  }
+
   increment(){
     return this.count += 1
   }
