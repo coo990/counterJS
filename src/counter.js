@@ -12,4 +12,8 @@ class Counter {
   increment(){
     return this.count += 1
   }
+
+  decrement(){
+    return this.count -= 1
+  }
 }
